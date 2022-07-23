@@ -9,7 +9,7 @@ common/jpeg\
 common/math\
 common/png\
 common/tiff\
-common/util\
+common/util
 
 To compile the code (linux), simply "make -f Makefile_g/Makefile_O" in each sub-directory.
 
@@ -20,4 +20,4 @@ jpeg.o\
 math.o\
 png.o\
 tiff.o\
-util.o\
+util.o
