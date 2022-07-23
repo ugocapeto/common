@@ -21,3 +21,9 @@ math.o\
 png.o\
 tiff.o\
 util.o
+
+Dependencies:
+
+libjpeg-dev\
+libpng-dev\
+libtiff-dev
