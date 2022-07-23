@@ -1,0 +1,14 @@
+include objects.h
+#
+PROGRAM = png.o
+#
+CC = g++
+CFLAGS = -O -Wall
+#
+all: $(PROGRAM)
+#
+$(PROGRAM): $(objects)
+	ld -r -o $@ $(objects)
+#
+.c.o:
+	$(CC) -c $(CFLAGS) $<

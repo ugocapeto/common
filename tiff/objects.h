@@ -1,0 +1,9 @@
+objects=\
+read_tiff_into_image_alpha_arr.o\
+read_tiff_into_image_arr.o\
+read_tiff_into_rgba_image_arr.o\
+read_tiff_into_rgb_image_arr.o\
+write_image_arr_into_tiff.o\
+write_rgba_image_arr_into_tiff.o\
+write_rgb_image_arr_into_tiff.o\
+write_tiff.o
