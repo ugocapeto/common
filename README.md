@@ -1,6 +1,6 @@
 # common
 
-This repo contains code to create libraries used by other repos. In your directory structure, this repo should be at the same level as any other repo I offer. Otheriwse, you will have to change the Makefiles. 
+This repo contains code to create libraries used by other repos I offer. In your directory structure, this repo should be at the same level as any other repo I offer. Otherwise, you will have to change the Makefiles. 
 
 Structure:
 
