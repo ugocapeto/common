@@ -1,10 +1,13 @@
 objects=\
 bicubic_interpolation_on_image.o\
+bicubic_interpolation_on_image_int.o\
+bilinear_interpolation_on_image_int.o\
 cubic_interpolation.o\
 error_handler.o\
 F.o\
 get_random_dbl.o\
 get_random_int.o\
+linear_interpolation.o\
 resize_rgb_image.o\
 rgb2xyz.o\
 rgb_image_to_Lab.o\

@@ -6,6 +6,22 @@ double bicubic_interpolation_on_image(
  int ydim
 );
 
+double bicubic_interpolation_on_image_int(
+ int *image_arr,
+ double x,
+ double y,
+ int xdim,
+ int ydim
+);
+
+double bilinear_interpolation_on_image_int(
+ int *image_arr,
+ int width,
+ int height,
+ double x,
+ double y
+);
+
 double cubic_interpolation(
  double p0,
  double p1,
@@ -32,6 +48,12 @@ void get_random_int(
  int min_int,
  int max_int,
  int *prand_int
+);
+
+double linear_interpolation(
+ double p1,
+ double p2,
+ double x
 );
 
 void resize_rgb_image(
