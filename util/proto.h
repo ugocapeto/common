@@ -56,6 +56,40 @@ double linear_interpolation(
  double x
 );
 
+void plot_convex_polygon(
+ int *point_arr,
+ int point_nbr,
+ int **pxy_arr,
+ int *pxy_nbr
+);
+
+void plot_line(
+ int x0,
+ int y0,
+ int x1,
+ int y1,
+ int **pxy_arr,
+ int *pxy_nbr
+);
+
+void plot_line_high(
+ int x0,
+ int y0,
+ int x1,
+ int y1,
+ int **pxy_arr,
+ int *pxy_nbr
+);
+
+void plot_line_low(
+ int x0,
+ int y0,
+ int x1,
+ int y1,
+ int **pxy_arr,
+ int *pxy_nbr
+);
+
 void resize_rgb_image(
  char *filename,
  int width2,
